@@ -9,4 +9,11 @@ salario=467
 flag=False
 espar=True
 
+print("ingrese su edad")
+edad=input()
+print("su edad es",edad)
+#input("ingrese su edad")
+edad=input("ingrese su edad")
+print(edad)
+
 
