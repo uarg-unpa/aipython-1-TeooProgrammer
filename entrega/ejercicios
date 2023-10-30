@@ -1,0 +1,50 @@
+print("ingrese su nombre, apellido y edad")
+nombre,apellido,edad=input("ser creativo")
+
+nombre,apellido,edad=input("ingrese su nombre, apellido y edad")
+
+num1,num2=input("ingrese dos numeros")
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+print(num1**num2)
+print(num1%num2)
+
+numero1=input("ingrese un numero entero")
+numero2=input("ingrese un numero decimal")
+
+base,altura=input("ingrese la base y altura del rectangulo")
+perimetro=2*altura+2*base
+print(perimetro)
+area=base*altura
+print(area)
+
+peso,estatura=input("ingrese su peso en kilos y su estatura en metros")
+imc=peso*(estatura*estatura)
+print("tu indice de masa corporal es",imc)
+
+gc=input("ingrese una tempertura en grados celcius")
+gf=gc*1.8+32
+print(gf)
+
+horas,costo=input("ingrese el numero de horas trabajadas y el costo por hora")
+sueldo=horas*costo
+print("su sueldo es de ", sueldo)
+
+n1,n2,n3,n4,n5,n6,n7,n8,n9,n10=input("ingrese diez numeros")
+prom=n1+n2+n3+n4+n5+n6+n7+n8+n9+n10/10
+print("el promedio es",prom)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
