@@ -1,0 +1,51 @@
+edad=int(input("ingrese su edad: "))
+if edad>=18:
+    print("podes manejar")
+else:
+    print("no agarres la nave, te faltan {edad-18} para eso")
+    
+xd=35
+edad=int(input("ingrese su edad: "))
+if edad>xd:
+    print("años")
+if:
+    print("tienen la misma edad xd")
+else:
+    if edad==xd+1:
+            print("año")
+
+cs=rawrrr    
+contra=(input("ingrese su contraseña: "))
+if contra=cs:
+    print("son iguales :v")
+else:
+    print("son distintas")
+    
+uwu=int(input("ingrese un numero"))
+unu=int(input("ingrese otro numero"))
+if uwu>unu:
+    print("a es mayor que b")
+if uwu<unu:
+    print("a es menor que b")
+else:
+    print("a es igual que b")
+    
+num=int(input("ingrese un numero"))
+if num%2==0:
+    print("el numero es par")
+else:
+    print("el numero es impar")
+    
+
+     
+
+
+
+    
+
+    
+    
+
+    
+    
+    

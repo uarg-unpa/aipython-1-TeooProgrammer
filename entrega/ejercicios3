@@ -1,0 +1,34 @@
+cont=0
+while cont<100:
+    print(cont)
+    cont=cont+1
+    
+for cont in range(0,100):
+    print(cont)
+    cont=cont+1
+
+dchil=10
+while dchil>=10 & dchil<-1:
+    print(dchil)
+    dchil=dchil-1
+    
+for dchil in range(10,0):
+    print(dchil)
+    
+amd=int(input("ingrese un numero"))
+intel=int(input("ingrese otro numero"))
+owo=0
+for owo in range(amd,intel):
+    print(owo)
+    
+rawr=#
+for rawr in range(0,7):
+    print(rawr)
+    rawr=rawr+#
+ 
+cc=9   
+for cc in range(0,8):  
+    print(########)
+          
+
+    

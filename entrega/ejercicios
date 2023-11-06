@@ -10,8 +10,8 @@ print(num1*num2)
 print(num1**num2)
 print(num1%num2)
 
-numero1=input("ingrese un numero entero")
-numero2=input("ingrese un numero decimal")
+numero1=int(numero1)=input("ingrese un numero entero")
+numero2=float(numero2)=input("ingrese un numero decimal")
 
 base,altura=input("ingrese la base y altura del rectangulo")
 perimetro=2*altura+2*base
@@ -34,10 +34,6 @@ print("su sueldo es de ", sueldo)
 n1,n2,n3,n4,n5,n6,n7,n8,n9,n10=input("ingrese diez numeros")
 prom=n1+n2+n3+n4+n5+n6+n7+n8+n9+n10/10
 print("el promedio es",prom)
-
-
-
-
 
 
 
