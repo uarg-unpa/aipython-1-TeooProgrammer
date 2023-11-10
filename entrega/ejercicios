@@ -1,8 +1,11 @@
+#4
 print("ingrese su nombre, apellido y edad")
 nombre,apellido,edad=input("ser creativo")
 
+#5
 nombre,apellido,edad=input("ingrese su nombre, apellido y edad")
 
+#6
 num1,num2=input("ingrese dos numeros")
 print(num1+num2)
 print(num1-num2)
@@ -10,30 +13,56 @@ print(num1*num2)
 print(num1**num2)
 print(num1%num2)
 
+#7
 numero1=int(numero1)=input("ingrese un numero entero")
 numero2=float(numero2)=input("ingrese un numero decimal")
 
+#8
 base,altura=input("ingrese la base y altura del rectangulo")
 perimetro=2*altura+2*base
 print(perimetro)
 area=base*altura
 print(area)
 
+#9
 peso,estatura=input("ingrese su peso en kilos y su estatura en metros")
 imc=peso*(estatura*estatura)
 print("tu indice de masa corporal es",imc)
 
+#10
 gc=input("ingrese una tempertura en grados celcius")
 gf=gc*1.8+32
 print(gf)
 
+#11
 horas,costo=input("ingrese el numero de horas trabajadas y el costo por hora")
 sueldo=horas*costo
 print("su sueldo es de ", sueldo)
 
+
+#13
 n1,n2,n3,n4,n5,n6,n7,n8,n9,n10=input("ingrese diez numeros")
 prom=n1+n2+n3+n4+n5+n6+n7+n8+n9+n10/10
 print("el promedio es",prom)
+
+#14
+resultado1 = 'Una ambiciosa' + ' Introducción' + ' a Python' + ' Parte 1'
+resultado2 = 'Una ambiciosa' ' Introducción' ' a Python' ' Parte 1'
+print("Método 1:", resultado1)
+print("Método 2:", resultado2)
+
+#15
+sociedad= 'aiPython P1'
+print("sociedad:",sociedad)
+
+print("longitud de la variable sociedad: ", longitud_sociedad)
+
+print("variable en mayusculas: ", sociedad_mayusculas)
+
+print("variable en minusculas: ",sociedad_minusculas )
+
+#16
+
 
 
 

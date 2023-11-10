@@ -1,12 +1,15 @@
+#1
 cont=0
 while cont<100:
     print(cont)
     cont=cont+1
     
+#2
 for cont in range(0,100):
     print(cont)
     cont=cont+1
 
+#3
 dchil=10
 while dchil>=10 & dchil<-1:
     print(dchil)
@@ -15,19 +18,89 @@ while dchil>=10 & dchil<-1:
 for dchil in range(10,0):
     print(dchil)
     
+
+#4
 amd=int(input("ingrese un numero"))
 intel=int(input("ingrese otro numero"))
 owo=0
 for owo in range(amd,intel):
     print(owo)
-    
+
+#5   
 rawr=#
 for rawr in range(0,7):
     print(rawr)
     rawr=rawr+#
- 
+
+#6
 cc=9   
 for cc in range(0,8):  
-    print(########)
-          
+    print("########")
+
+#7
+nombre_usuario=input("ingrese su nombre de usuario: ")
+numero_repeticiones=int(input("ingrese un numero entero: "))
+
+for _ in range(numero_repeticiones):
+    print(nombre_usuario)
+    
+#8
+num=int(input("ingrese un numero entero positivo mayor a 3"))
+if num>=3:
+    cont=1
+    for _ in range (cont,num):
+    if cont %2!=0:
+    print(cont)
+else:
+    print("ingrese un numero valido")
+    
+#9
+for i in range(11)
+    resultado= i*i
+    print(f"{i} * {i}={resultado}")
+    
+#10
+for i in range(7)
+    for j in range(i,7):
+        print(f"[{i} | {j}]")
+
+#11
+numero=int(input("ingrese un numero entero: "))
+
+for i range(1, numero + 1, 2):
+    for j in range(i, 0, -2):
+        print(j, end" ")
+    print()
+    
+#12
+n=int(input("ingrese un numero natural: "))
+if n<0:
+    print("ingrese un numero natural positivo")
+else:
+    suma=sum(range(1, n+1))
+
+print(f"la suma de los numeros naturales hasta {n} es: {suma}")
+
+#13
+n=int(input("ingrese un numero natural: "))
+if n<0:
+    print("ingrese un numero natural positivo")
+else:
+    suma_pares=sum(range(2,2*n + 1,2))
+print(f"la suma de los primeros {n} numeros pares es {suma_pares}")
+
+#14
+principio=int(input("ingrese el primer numero natural"))
+final=int(input("ingrese otro numero entero"))
+
+if principio>=final:
+    print("el segundo numero no es mayor que el primero")
+else:
+     print(f"numeros pares entre {principio} y {final}:")
+     for num in range(inicio,fin +1):
+         if num%2==0:
+             print(num)
+
+    
+
     
