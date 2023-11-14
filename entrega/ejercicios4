@@ -1,0 +1,115 @@
+#1
+lista_vacia= []
+
+#2
+lista_siete[2,3,1,45,67,88,77,26]
+
+#3
+longitud_lista=len(lista_siete)
+print("la longitud de la lista es: ", longitud_lista)
+
+#4
+frutas_favoritas["mandarina", "frutilla", "uva", "manzana", "durazno"]
+longitud_original= len(frutas_favoritas)
+print("longitud original de la lista de frutas favoritas: ", longitud_original)
+
+primer_fruta_eliminada=frutas_favoritas.pop(0)
+print("primer elemento eliminado de la lista: ", primer_fruta_eliminada)
+
+frutas_favoritas.append("cereza")
+print("lista de frutas favoritas despues de agregar un elemento al final: ",frutas_favoritas)
+
+print("\nResultados anteriores: ")
+print("longitud original de la lista: ",longitud_original)
+print("primer elemento eliminado: ", primer_fruta_eliminada)
+print("lista de frutas favoritas despues de agregar un elemento al final:", frutas_favoritas)
+
+#5
+listaaa[3,8,7,55,31,57]
+
+primer_elemento=listaaa[0]
+print("primer elemento: ", primer_elemento)
+elemento_del_medio=listaaa[len(listaaa)//2]
+print("elemento del medio: ", elemento_del_medio)
+
+ultimo_elemento=listaaa[-1]
+print("ultimo elemento: ", ultimo_elemento)
+
+#6
+datos_personales[]
+
+datos_personales.append("Mateo")
+datos_personales.append(19)
+datos_personales.append(1.70)
+datos_personales.append("soltero :'v")
+datos_personales.append("estudiante")
+
+print("datos personales: ")
+print(datos_personales)
+
+#7
+companias_favoritas["amd", "motorola", "starbucks", "kfc"]
+print("companias favoritas: ")
+print(companias_favoritas)
+
+#8
+print("lista de datos personales")
+for datos in datos personales:
+    print(datos)
+    
+print("lista de datos personales: ", end='')
+for datos in datos personales:
+    print(datos, end='')
+
+#9
+print("indice y nombre de la compania: ")
+for indice,compania in enumerate(compania_favoritas):
+    print(f"indice {indice}: {compania}")
+    
+#10
+companias_favoritas[1]= "milka"
+compnias_favoritas[2]= "lenovo"
+
+print("lista de companias favoritas actualizada: ")
+print(companias_favoritas)
+
+#11
+numeros=list(range(1,11))
+primeros_tres_numeros=numeros[:3]
+print("los tres primeros numeros son: ", primeros_tres_numeros)
+
+#12
+letras=['a','b','c','d','e','f','g','h','i','j']
+segundo_elemento=letras[::2]
+print("segundo elemento de lista letras: ")
+print(segundo_elemento)
+
+#13
+uwu=[11,22,33]
+lista_inversa=uwu[::-1]
+print("lista inversa")
+print(lista_inversa)
+
+#14
+palabras_favoritas=["macacos", "moco", "verde", "viento", "estudiantil", "velociraptor"]
+sublista_palabras=palabras_favoritas[1:4]
+print("sublista de palabras desde la segunda hasta la cuarta")
+print(sublista_palabras)
+
+#15
+flores = ["rosas", "orquídea", "lirio", "tulipan", "margarita", "dalia", "hortensia"]
+
+tres_elementos_desde_tercero=flores[2:5]
+print("tres elementos desde el tercero: ", tres_elementos_desde_tercero)
+
+elementos_posiciones_pares=flores[1::2]
+print("elementos en posiciones pares desde la segunda posicion: ", elementos_posiciones_pares)
+
+elementos_cada_tres=flores[::3]
+print("elementos desde la primera posicions saltando de a tres elementos: ", elementos_cada_tres)
+
+ 
+
+             
+
+

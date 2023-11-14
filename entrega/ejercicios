@@ -62,10 +62,70 @@ print("variable en mayusculas: ", sociedad_mayusculas)
 print("variable en minusculas: ",sociedad_minusculas )
 
 #16
+texto= "sometime it is the people no one imagines anything of who do the things that no one can imagine "
 
+capitalizado=texto.capitalize()
+print("capitalize(): ", capitalizado)
 
+titulizado=texto.title()
+print("title()", titulizado)
 
+intercambiado=texto.swapcase()
+print("swapcase(): ", intercambiado)
 
+#17
+nombre_completo=input("Por favor, ingresa tu nombre completo: ")
+for i in range(3):
+    print(nombre_completo)
+    
+#18
+print("     *")
+print("    * *")
+print("   *   *")
+print("  *     *")
+print(" *       *")
+print("****   ****")
+print("   *   *")
+print("   *   *")
+print("   *   *")
+print("   *   * ")
+print("   *   * ")
+print("   *****")
+
+#21
+palabra=input("Ingrese una palabra: ")
+palabra_modificada=palabra.replace('a', '😃')
+print("palabra modificada: ", palabra_modificada)
+
+#22
+frase= 'el razonamiento matematico puede considerarse más bien esquemáticamente como el ejercicio de una combinación de dos intalaciones, que podemos llamar la intuición y el ingenio'
+
+palabras=frase.split()
+nueva_frase= ' '.join(palabras[2:1])
+
+print("frase original: ", frase)
+print("frase sin las dos primeras palabras: ", nueva_frase)
+
+#23
+frase= " la ciencia es una ecuación diferencial. la religión es una condición de frontera"
+frase_sin_espacios=frase.strip()
+
+print("frase original: ", frase)
+print("frase sin espacios en blanco al principio y final: ", frase_sin_espacios)
+
+#24
+frase= 'el razonamiento matematico puede considerarse más bien esquemáticamente como el ejercicio de una combinación de dos intalaciones, que podemos llamar la intuición y el ingenio'
+frases_separada= "el raazonamiento matematico puede considerarse más bien\nesquemáticamente como el ejercicio de una combinación de dos\ninstalaciones, que podemos llamar la intuición y el ingenio."
+
+print("frase original: ")
+print(frase)
+
+print("\nFrase separada en dos líneas:")
+print(frase_separada)
+
+#25
+print("Nombre\tEdad\tPais\tCiudad")
+print("Alexa\t250\tUSA\tCapeCod")
 
 
 
