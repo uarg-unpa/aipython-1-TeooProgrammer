@@ -56,7 +56,7 @@ def multiplicar_lista(lista):
 
 #10
 def es_palindromo(cadena):
-    cadena=cadena.lower().replace("","").replace(",","").replace(".","").replace("!","").replace("?","").replace(";","").replace(":",""
+cadena=cadena.lower().replace("","").replace(",","").replace(".","").replace("!","").replace("?","").replace(";","").replace(":",""
                                                                                                                                  )
 cadena_invertida=cadena[::-1]
 return cadena==cadena_invertida
